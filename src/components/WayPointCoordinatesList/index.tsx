@@ -2,6 +2,7 @@ import { Coordinate } from "ol/coordinate";
 import { FC } from "react";
 import { TbArrowBarUp } from "react-icons/tb";
 import { calculateDistance } from "../../lib";
+import { LuArrowLeftToLine, LuArrowRightFromLine } from "react-icons/lu";
 
 interface WayPointCoordinatesListPropsType {
     coordinates: Coordinate[] | any;
@@ -105,9 +106,9 @@ export const WayPointCoordinatesList: FC<WayPointCoordinatesListPropsType> = ({
                                             </svg>
                                         </button>
                                         {dropdownIndex === index && (
-                                            <ul className="absolute bg-white border text-xs rounded shadow-md mt-2 w-40">
+                                            <ul className="absolute bg-white border text-xs rounded shadow-md mt-2 w-48">
                                                 <li
-                                                    className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                                                    className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex gap-2 items-center"
                                                     onClick={() =>
                                                         handleDropdownAction(
                                                             "before",
@@ -115,10 +116,11 @@ export const WayPointCoordinatesList: FC<WayPointCoordinatesListPropsType> = ({
                                                         )
                                                     }
                                                 >
+                                                    <LuArrowLeftToLine />
                                                     Insert Polygon Before
                                                 </li>
                                                 <li
-                                                    className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
+                                                    className="px-4 py-2 hover:bg-gray-100 cursor-pointer flex gap-2 items-center"
                                                     onClick={() =>
                                                         handleDropdownAction(
                                                             "after",
@@ -126,6 +128,7 @@ export const WayPointCoordinatesList: FC<WayPointCoordinatesListPropsType> = ({
                                                         )
                                                     }
                                                 >
+                                                    <LuArrowRightFromLine />
                                                     Insert Polygon After
                                                 </li>
                                             </ul>

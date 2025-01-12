@@ -10,6 +10,40 @@ https://rekise-marine-frontend-task.vercel.app/
 
 ## ScreenShots
 
+### Initial View of Application
+[![Screenshot-from-2025-01-12-18-31-44.png](https://i.postimg.cc/FK0JSh5x/Screenshot-from-2025-01-12-18-31-44.png)](https://postimg.cc/R3VF5503)
+
+### Initial Render of Mission Creation Modal
+[![Screenshot-from-2025-01-12-18-31-50.png](https://i.postimg.cc/KvYLWXBZ/Screenshot-from-2025-01-12-18-31-50.png)](https://postimg.cc/mh0tc5mq)
+
+### Plotting Line String Coordinates 
+[![Screenshot-from-2025-01-12-18-33-40.png](https://i.postimg.cc/4N4bTHkR/Screenshot-from-2025-01-12-18-33-40.png)](https://postimg.cc/jC9JH5SM)
+
+### Mission Creating Modal with Line String Coordinates
+[![Screenshot-from-2025-01-12-18-33-53.png](https://i.postimg.cc/DycjrKFn/Screenshot-from-2025-01-12-18-33-53.png)](https://postimg.cc/N55ktS5z)
+
+### Mission Creation Modal with insert polygon options 
+[![Screenshot-from-2025-01-12-18-34-22.png](https://i.postimg.cc/3Rp0g7sB/Screenshot-from-2025-01-12-18-34-22.png)](https://postimg.cc/KkGYbXvk)
+
+### Initial Render of Polygon Tool Modal
+[![Screenshot-from-2025-01-12-18-34-29.png](https://i.postimg.cc/rpNvztmC/Screenshot-from-2025-01-12-18-34-29.png)](https://postimg.cc/t17rMJFY)
+
+### Map Plotting Polygon
+[![Screenshot-from-2025-01-12-18-34-43.png](https://i.postimg.cc/prrNwXPQ/Screenshot-from-2025-01-12-18-34-43.png)](https://postimg.cc/PpgFZHpN)
+
+
+### Polygon Points Plotted
+
+[![Screenshot-from-2025-01-12-18-34-57.png](https://i.postimg.cc/K8kGKQS7/Screenshot-from-2025-01-12-18-34-57.png)](https://postimg.cc/sMzdqY21)
+
+
+### Polygon Coordinates
+[![Screenshot-from-2025-01-12-18-35-05.png](https://i.postimg.cc/0ybQYPmw/Screenshot-from-2025-01-12-18-35-05.png)](https://postimg.cc/FYXNmtTr)
+
+
+### Mission Creation modal after importing polygon points
+[![Screenshot-from-2025-01-12-18-35-22.png](https://i.postimg.cc/W1HdChj8/Screenshot-from-2025-01-12-18-35-22.png)](https://postimg.cc/G4v3s34T)
+
 ## Features
 
 -   Interactive map using OpenLayers.
@@ -52,6 +86,9 @@ npm run dev
 ```
 
 And then open http://localhost:5173 to view it in the browser.
+
+## Libraries and Dependencies
+
 
 |   Library    | Description                                                                                                                                                                                                                                      |
 | :----------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

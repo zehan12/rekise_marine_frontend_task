@@ -1,4 +1,4 @@
-# Rekise Marine Map App
+# Rekise Marine Map App 🗺️
 
 ## Overview
 
